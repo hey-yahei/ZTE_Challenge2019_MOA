@@ -2,6 +2,10 @@
 I will open source my previous solutions without tweak.     
 Just some experimental code of ideas are shown here, while more general tools may be open source after the challenge.   
     
+### Costs     
+Test the origin model on RTX2080TI(ms) --          
+![](https://github.com/hey-yahei/ZTE_Challenge2019_MOA/blob/master/assets/images/costs.jpg)      
+
 ### Ideas List    
 1. `merge_bn.ipynb`: Merge batchnorm layers to convolution.      
 2. `clear_idle_filters.ipynb`: Clear some idle filters whose weights are near to zero.     
