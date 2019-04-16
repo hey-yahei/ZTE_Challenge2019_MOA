@@ -13,7 +13,8 @@ Test the origin model on RTX2080TI(ms) --
 4. Seperate a kxk-convolution into \[kxk, 1x1\] or \[kx1, 1xk\].
 5. Use some special algorithm for computations(im2, kn2, Winograd, FFT, direct and so on). 
 6. Try different stategies to prune.
-7. Sparse convolutions and fully connections.
-8. Quantization...
+7. Sparse convolutions and sparse fully connections.
+8. Quantization.
+9. Merge layers(for example, merge two 3x3-convolutions into one 5x5-convolution if relu can be ignored).
     
 **Good luck~**
